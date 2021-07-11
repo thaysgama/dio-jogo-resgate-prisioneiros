@@ -2,6 +2,8 @@
 
 **TECNOLOGIAS APLICADAS: HTML, CSS , JavaScript.**
 
+Jogue através da GitPage: https://thaysgama.github.io/dio-jogo-resgate-prisioneiros/
+
 
 
 ###### DESCRIÇÃO
