@@ -1,0 +1,99 @@
+/* animação primeiro helicópteo */
+
+.anima1{
+  background-image: url(../img/apache.png);
+  animation:play .5s steps(2) infinite;
+  /* adaptado a compatibilidade para todos os navegadores */
+  -webkit-animation: play .5s steps(2) infinite;
+  -moz-animation: play .5s steps(2) infinite;
+  -ms-animation: play .5s steps(2) infinite;
+  -o-animation: play .5s steps(2) infinite;
+}
+
+@keyframes play {
+  from { background-position: 0px ; }
+    to { background-position: -512px; }
+}
+
+/* adaptado a compatibilidade para todos os navegadores */
+@-webkit-keyframes play {
+  from { background-position:0px; }
+    to { background-position: -512px; }
+}
+
+@-moz-keyframes play {
+  from { background-position:0px; }
+    to { background-position: -512px; }
+}
+
+@-ms-keyframes play {
+  from { background-position:0px; }
+    to { background-position: -512px; }
+}
+
+@-o-keyframes play {
+  from { background-position:0px; }
+    to { background-position: -512px; }
+}
+
+/* animação segundo helicópteo */
+.anima2 {
+  background-image:url(../img/inimigo1.png);
+  animation: play .5s steps(2) infinite;
+  /* adaptado a compatibilidade para todos os navegadores */
+  -webkit-animation: play .5s steps(2) infinite;
+  -moz-animation: play .5s steps(2) infinite;
+  -ms-animation: play .5s steps(2) infinite;
+  -o-animation: play .5s steps(2) infinite; 
+}
+/* como a imagem do helicóptero 2 tem as mesmas dimensões do primeiro, conseguimos reaproveitar a primeira animação criada */
+
+
+/* animação personagem - possui 12 quadros */
+.anima3 {
+	background-image:url(../img/amigo.png);
+	animation:play2 .9s steps(12) infinite;
+  /* adaptado a compatibilidade para todos os navegadores */
+	-webkit-animation: play2 .9s steps(12) infinite;
+  -moz-animation: play2 .9s steps(12) infinite;
+  -ms-animation: play2 .9s steps(12) infinite;
+  -o-animation: play2 .9s steps(12) infinite;
+}
+
+
+
+@keyframes play2 {
+	from { background-position:0px; }
+	  to { background-position:-528px; }
+}
+
+@-webkit-keyframes play2 {
+  from { background-position:    0px; }
+    to { background-position: -528px; }
+}
+
+@-moz-keyframes play2 {
+  from { background-position:    0px; }
+    to { background-position: -528px; }
+}
+
+@-ms-keyframes play2 {
+  from { background-position:    0px; }
+    to { background-position: -528px; }
+}
+
+@-o-keyframes play2 {
+  from { background-position:    0px; }
+    to { background-position: -528px; }
+}
+
+/* animação explosao personagem */
+.anima4 {
+	background-image:url(../img/amigo_morte.png);
+	animation:play3 .5s steps(7) infinite;
+    /* adaptado a compatibilidade para todos os navegadores */
+	-webkit-animation: play3 .5s steps(7) infinite;
+  -moz-animation: play3 .5s steps(7) infinite;
+  -ms-animation: play3 .5s steps(7) infinite;
+  -o-animation: play3 .5s steps(7) infinite;
+}
